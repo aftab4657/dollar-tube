@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Responsive styles for : Dollar Tube
+   ========================================================================== */
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+  .col-xs-6.content-area {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-area {
+    margin: 90px auto;
+  }
+  .three-services > div {
+    margin-bottom: 65px;
+  }
+  .feature-content {
+    margin-bottom: 55px;
+  }
+
+  .slick-list.draggable {
+    margin: 0 30px;
+  }
+  .slick-prev {
+    left: -12px;
+  }
+  .slick-next {
+    right: -12px;
+  }
+
+  footer .col-sm-4 {
+    margin-bottom: 35px;
+  }
+  .foot-copyright ul,
+  .foot-copyright p {
+    text-align: center;
+    width: 100%;
+  }
+  .vsec iframe {
+    width: 100% !important;
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 550px) {
+  .content-area {
+    padding: 15px;
+  }
+
+  .foot-nav h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .content-area > img {
+    max-width: 110px;
+    width: 100%;
+  }
+  .vsec {
+    padding: 40px 0 0px;
+  }
+  #howitworks {
+    padding: 50px 0 40px;
+  }
+  #promoteus button {
+    margin: 40px auto 40px;
+    font-size: 16px;
+  }
+  .card button {
+    font-size: 16px !important;
+  }
+  .feature-content > h1,
+  .vsec2 h1 {
+    margin-bottom: 25px;
+  }
+  faq {
+    padding: 50px 0 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .content-area p {
+    font-size: 14px;
+  }
+  .content-area .wh-btn {
+    margin-top: -3px;
+    padding: 8px 15px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  .navbar-brand {
+    width: 250px;
+  }
+  .feature-slide span {
+    display: block;
+  }
+}

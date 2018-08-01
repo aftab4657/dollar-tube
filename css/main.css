@@ -1,0 +1,764 @@
+/* ==========================================================================
+   Custom styles for : Dollar Tube
+   ========================================================================== */
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a.navbar-brand {
+  width: 170px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+nav.navbar {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  margin: 0;
+}
+.navbar-brand {
+  height: auto;
+}
+.navbar-right a {
+  color: #848b8f;
+  font-size: 18px;
+  text-shadow: none;
+}
+ul.navbar-right {
+  margin-top: 9px;
+}
+.nav li.btn {
+  padding: 0;
+}
+
+#lg-banner {
+  background-attachment: fixed;
+  background-image: url("../images/top-img.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+}
+
+.content-area {
+  background: rgba(255, 4, 1, 0.6) none repeat scroll 0 0;
+  color: #fff;
+  float: none;
+  margin: 110px auto;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+}
+.content-area p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 20px 0 0;
+}
+.impn {
+  background: #000;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.impn p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.impn b {
+  display: block;
+  margin-bottom: 5px;
+}
+.vsec {
+  text-align: center;
+  padding: 80px 0 50px;
+}
+
+.content-area:before,
+.content-area:after,
+.wh-btn:after,
+.wh-btn:before,
+.black-btn:after,
+.black-btn:before,
+.img-box:before,
+.img-box:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+  opacity: 0.6;
+}
+
+.content-area:after {
+  border-width: 0 0 30px 30px;
+  border-color: transparent transparent #ff0401 transparent;
+  right: 0;
+  top: -30px;
+}
+
+.content-area:before {
+  border-width: 30px 30px 0 0;
+  border-color: #ff0401 transparent transparent transparent;
+  bottom: -30px;
+  left: 0;
+}
+
+.btn-default {
+  border: medium none;
+  border-radius: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.wh-btn {
+  background: #fff none repeat scroll 0 0;
+  border: none;
+  box-shadow: none;
+}
+.wh-btn:before,
+.wh-btn:after,
+.black-btn:before,
+.black-btn:after,
+.img-box:before,
+.img-box:after {
+  opacity: 1;
+}
+
+.wh-btn:after {
+  border-color: transparent transparent #ffffff;
+  border-width: 0 0 15px 25px;
+  right: 0;
+  top: -13px;
+}
+
+.black-btn:after,
+.img-box:after {
+  border-color: transparent transparent #323d44;
+  border-width: 0 0 15px 25px;
+  right: 0;
+  top: -13px;
+}
+.wh-btn:before {
+  border-color: #ffffff transparent transparent;
+  border-width: 15px 25px 0 0;
+  bottom: -13px;
+  left: 0;
+}
+.wh-btn:hover:after,
+.black-btn:hover:after {
+  border-color: transparent transparent #e0e0e0;
+}
+.wh-btn:hover:before,
+.black-btn:hover:before {
+  border-color: #e0e0e0 transparent transparent;
+}
+.black-btn:before,
+.img-box:before {
+  border-color: #323d44 transparent transparent;
+  border-width: 15px 25px 0 0;
+  bottom: -13px;
+  left: 0;
+}
+
+.content-area .wh-btn {
+  margin-top: 20px;
+  padding: 15px 20px;
+}
+
+.blue-txt {
+  color: #ff0401;
+}
+
+#howitworks .container > p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 65px;
+}
+#howitworks p {
+  color: #c5c5c5;
+}
+.black-btn {
+  background: #323d44;
+  text-shadow: none;
+  color: #fff;
+  box-shadow: none;
+}
+.three-services h4 {
+  margin: 15px 0 0px;
+}
+
+#howitworks {
+  padding: 50px 0 90px;
+  text-align: center;
+}
+
+.img-box {
+  background-color: #323d44;
+  background-image: url(../images/sercives.png);
+  display: inline-block;
+  height: 125px;
+  width: 125px;
+  background-repeat: no-repeat;
+  background-size: 90px auto;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.img-box.icn1 {
+  background-position: 18px 19px;
+}
+.img-box.icn2 {
+  background-position: 18px -151px;
+}
+.img-box.icn3 {
+  background-position: 17px -298px;
+}
+#howitworks h1 {
+  font-weight: 800;
+  margin-bottom: 55px;
+}
+#howitworks h4 {
+  font-weight: 700;
+}
+
+#howitworks .black-btn {
+  margin-top: 15px;
+}
+#howitworks .col-sm-4 > p {
+  margin: 13px auto;
+  max-width: 220px;
+  width: 100%;
+}
+
+#faq {
+  background-attachment: fixed;
+  background-image: url("../images/blue-bg.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.feature-content .black-btn {
+  margin-top: 15px;
+}
+
+.feature-content li {
+  list-style: outside none none;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.feature-content li::before {
+  background-image: url("../images/bullets.png");
+  content: "";
+  height: 19px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.vsec2 iframe {
+  display: block;
+  margin: 50px auto 20px;
+}
+.vsec iframe {
+  border: 5px solid #fe0600;
+  border-radius: 5px;
+}
+.feature-content > h1,
+.vsec2 h1 {
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.card-body {
+  background: #fff;
+  color: #000;
+  padding: 15px 27px;
+}
+.feature-content button:hover {
+  color: #000;
+}
+.feature-content button {
+  text-decoration: none !important;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 700;
+  width: 100%;
+  border-bottom: 1px solid !important;
+  padding: 10px 0;
+  white-space: normal;
+}
+.feature-content img {
+  margin-right: 5px;
+}
+.feature-content > p {
+  margin: 10px 0 20px;
+}
+
+#brands .responsive {
+  margin-bottom: 0;
+}
+
+#brands {
+  padding: 50px 0;
+}
+
+.foot-copyright {
+  background-color: #ff0401;
+  color: #fff;
+  padding: 15px 0;
+}
+.foot-copyright p {
+  float: left;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.foot-copyright ul {
+  float: right;
+}
+.foot-copyright li {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 25px;
+  color: #ff0401;
+  display: inline-block;
+  height: 35px;
+  text-align: center;
+  width: 35px;
+}
+.foot-copyright i.fa {
+  font-size: 20px;
+  margin: 8px 0 0;
+}
+
+.foot-nav {
+  background-color: #0e0e0e;
+  color: #ffffff;
+  padding: 30px 0;
+  font-size: 16px;
+}
+
+.foot-nav h2 {
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.foot-nav li {
+  margin-bottom: 5px;
+}
+
+.nav-form .txt-box {
+  border-radius: 5px;
+  color: #000;
+  height: 45px;
+  margin-bottom: 5px;
+  width: 100%;
+  padding-left: 15px;
+}
+.plain-btn {
+  background: #fe0600 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  text-shadow: none;
+}
+.con-info > li {
+  padding-left: 0;
+}
+.con-info i.fa,
+.con-info span {
+  display: table-cell;
+}
+footer p {
+  text-align: justify;
+}
+.foot-nav h2 {
+  font-size: 25px;
+
+  padding-bottom: 5px;
+}
+#howitworks .vsec {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.nav .btn a {
+  background: red;
+  color: #fff !important;
+  border-radius: 5px;
+}
+.con-info i.fa {
+  color: #fe0600;
+  font-size: 18px;
+  width: 25px;
+}
+
+/*Scroller*/
+.scrollbox {
+  overflow: auto; /* This is changed by enscroll, but must be defined */
+  width: 100% !important;
+  height: 420px;
+}
+.vertical-track {
+  width: 16px; /* How wide is the scrollbar going to be? */
+  background-color: #aaa; /* What color should the vertical track be? */
+}
+.vertical-handle {
+  width: 16px; /* How wide is the scrollbar handle? */
+  background-color: #aaf; /* What color should the handle be? */
+}
+/*END Scroller*/
+
+.feature-slide {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+.feature-slide h1 {
+  font-weight: 800;
+}
+.feature-slide span {
+  color: #b9b9b9;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.feature-slide p {
+  color: #a5a6a6;
+  margin: 10px 0 29px;
+}
+.feature-slide button {
+  margin-bottom: 35px;
+}
+.blog-1 > img {
+  width: 99%;
+}
+.enscroll-track.vertical-track {
+  background: #e8e8e8 none repeat scroll 0 0;
+  border-radius: 10px;
+  width: 9px;
+}
+.vertical-handle {
+  background-color: transparent;
+  background-image: url("../images/scroller.png");
+  background-repeat: no-repeat;
+  height: 32px !important;
+  margin: 0 0 0 -4px;
+  width: 19px;
+}
+
+.slick-prev,
+.slick-next {
+  background-image: url("../images/nav-btn.png");
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 42px;
+}
+
+.slick-slide img {
+  margin: auto;
+  width: 95%;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  content: "";
+}
+
+.slick-prev {
+  left: -35px;
+}
+.slick-next {
+  right: -35px;
+  background-position: -67px 0;
+}
+
+.draw-line {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0401+0,0868ac+20,000333+20,333333+40,0868ac+40,0868ac+61,333333+61,333333+80,0868ac+80,0868ac+100 */
+  background: #ff0401; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #ff0401 0%,
+    #ff0401 20%,
+    #000333 20%,
+    #333333 40%,
+    #ff0401 40%,
+    #ff0401 61%,
+    #333333 61%,
+    #333333 80%,
+    #ff0401 80%,
+    #ff0401 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0%, #ff0401),
+    color-stop(20%, #ff0401),
+    color-stop(20%, #000333),
+    color-stop(40%, #333333),
+    color-stop(40%, #ff0401),
+    color-stop(61%, #ff0401),
+    color-stop(61%, #333333),
+    color-stop(80%, #333333),
+    color-stop(80%, #ff0401),
+    color-stop(100%, #ff0401)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    left,
+    #ff0401 0%,
+    #ff0401 20%,
+    #000333 20%,
+    #333333 40%,
+    #ff0401 40%,
+    #ff0401 61%,
+    #333333 61%,
+    #333333 80%,
+    #ff0401 80%,
+    #ff0401 100%
+  );
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    left,
+    #ff0401 0%,
+    #ff0401 20%,
+    #000333 20%,
+    #333333 40%,
+    #ff0401 40%,
+    #ff0401 61%,
+    #333333 61%,
+    #333333 80%,
+    #ff0401 80%,
+    #ff0401 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    left,
+    #ff0401 0%,
+    #ff0401 20%,
+    #000333 20%,
+    #333333 40%,
+    #ff0401 40%,
+    #ff0401 61%,
+    #333333 61%,
+    #333333 80%,
+    #ff0401 80%,
+    #ff0401 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    to right,
+    #ff0401 0%,
+    #ff0401 20%,
+    #000333 20%,
+    #333333 40%,
+    #ff0401 40%,
+    #ff0401 61%,
+    #333333 61%,
+    #333333 80%,
+    #ff0401 80%,
+    #ff0401 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0401', endColorstr='#ff0401',GradientType=1 ); /* IE6-9 */
+  float: left;
+  height: 5px;
+  width: 100%;
+}
+/* Preloader */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ff0401; /* change if the mask should have another color then white */
+  z-index: 99; /* makes sure it stays on top */
+}
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%; /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(../img/status.gif); /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px; /* is width and height divided by two */
+}
+#loader-wrapper {
+  height: 230px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  width: 100%;
+  z-index: 1000;
+}
+#loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #3498db;
+  -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+  animation: spin 2s linear infinite;
+  /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #ffffff;
+  -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+  animation: spin 3s linear infinite;
+  /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #cccccc;
+  -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+  animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg); /* Firefox 16+, IE 10+, Opera */
+  }
+  100% {
+    -webkit-transform: rotate(360deg); /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg); /* IE 9 */
+    transform: rotate(360deg); /* Firefox 16+, IE 10+, Opera */
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+  100% {
+    -webkit-transform: rotate(360deg); /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg); /* Firefox 16+, IE 10+, Opera */
+  }
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #333;
+  font-weight: 500;
+  text-shadow: none !important;
+  text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ff0401;
+}
+.navbar-toggle {
+  background-color: #ff0401;
+  border-color: #ff0401 !important;
+  margin-top: 17px;
+}
+.navbar-brand > img {
+  width: 100%;
+}
+.content-area > img {
+  max-width: 190px;
+  width: 100%;
+}
+.nav .btn a:hover {
+  background: #000 !important;
+}
+.vsec h1 {
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #1e6ca1;
+  text-decoration: none;
+}
+.img-box:hover:before {
+  border-color: #ff0401 transparent transparent;
+}
+.img-box:hover:after {
+  border-color: transparent transparent #ff0401;
+}
+.img-box:hover {
+  background-color: #ff0401;
+}
+section.vsec.vsec2 {
+  padding-top: 10px;
+}
+#promoteus button {
+  margin: 40px auto 30px;
+  font-size: 25px;
+  padding: 12px 30px;
+}
+#innertop h1 {
+  text-align: center;
+  font-weight: 800;
+  color: #fff;
+}
+#innertop {
+  background: #383838;
+  padding: 70px 0;
+  margin-bottom: 60px;
+}
+.txtbody h2 {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px 0 10px;
+}
+.txtbody ul {
+  margin: 10px 0;
+}
+.txtbody {
+  margin-bottom: 60px;
+}
